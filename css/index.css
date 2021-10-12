@@ -1,4 +1,6 @@
-.galeria {
+/*esto es mobile first*/
+
+.contenedor-imagen {
     padding: 0 2.5%;
     display: flex;
     flex-direction: column;
@@ -14,6 +16,9 @@
     width: 100%
 }
 
+
+/*para ipad*/
+
 @media all and (min-width: 768px) {
     .galeria {
         flex-direction: row;
@@ -25,6 +30,9 @@
         margin-bottom: 30px;
     }
 }
+
+
+/*para computadora*/
 
 @media all and (min-width: 1024px) {
     .contenedor-imagen {
